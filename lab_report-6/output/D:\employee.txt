@@ -1,0 +1,15 @@
+Employee 1
+Name: Sam
+Age: 18
+Salary: 10000.00
+
+Employee 2
+Name: Yog
+Age: 10
+Salary: 1200.00
+
+Employee 3
+Name: Samyog
+Age: 19
+Salary: 60000.00
+
