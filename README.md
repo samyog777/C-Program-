@@ -1,2 +1,2 @@
-# C-Program-
-All programs of c.
+# C-program
+This is all files of c program.
