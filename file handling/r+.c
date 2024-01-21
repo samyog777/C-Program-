@@ -1,9 +1,7 @@
 #include <stdio.h>
-int main(){
-    int x = 5 * 9 / 3 + 9;
-    char name[10] = "samyog\n";
-    printf("%s",name);
-    printf("%d\n",x);
-    printf(name);
-    return 0;
+
+void main() {
+    int arr1[] ={2,3};
+    int arr2[2]={9};
+    printf("%d %d",arr1[1],arr2[1]);
 }
