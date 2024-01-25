@@ -2,11 +2,10 @@
 #include "lodepng.h"
 #include <stdlib.h>
 
-void main(){
+int main(){
 	unsigned char *Image;
-	unsigned int width, height,red,green,blue,alpha,gray;
-	int i,j;
-	unsigned int error;
+	unsigned int width, height,red,green,blue,alpha,gray,i,j,error;
+
 	error=lodepng_decode32_file(&Image,&width,&height,"unnamed.png");
 	if(error){
 		printf("Error opening a file %d :%s",error,lodepng_error_text(error));
@@ -25,7 +24,7 @@ void main(){
 			Image[4*width*i+4*j+0]=red;
 			Image[4*width*i+4*j+1]=green;
 			Image[4*width*i+4*j+2]=blue;
-			//printf("[%d %d %d %d]",red,green,blue,alpha);
+			printf("[%d %d %d %d]",red,green,blue,alpha);
 		}
 		printf("\n");
 	}
@@ -37,4 +36,5 @@ void main(){
 	}
 	free(Image);
 	free(png);
+	return 0;
 }
