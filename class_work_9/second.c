@@ -5,14 +5,14 @@
 void *first(void *p) {
     sleep(1);
     for(int i=0;i<8;i++) {
-        printf("I am first");
+        printf("I am first\n");
     }
 }
  
 void second() {
     for (int i=0;i<3;i++) {
-        printf("I am second");
-    }1
+        printf("I am second\n");
+    }
 }
 
 int main() {

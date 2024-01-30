@@ -20,4 +20,5 @@ int main() {
     pthread_t thread;
     pthread_create(&thread,NULL,first,NULL);
     second();
+    return 0;
 }
