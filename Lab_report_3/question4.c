@@ -2,7 +2,7 @@
 #include <stdlib.h>
 // using qsort method for sorting the array
 int ascend(const void *a, const void *b) {
-    return ((int)a - (int)b);
+    return (*(int *)a - *(int  *)b);
 }
 
 int main() {
