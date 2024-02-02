@@ -7,7 +7,7 @@ void main(){
 	unsigned int width, height,red,green,blue,alpha;
 	int i,j;
 	unsigned int error;
-	error=lodepng_decode32_file(&Image,&width,&height,"unnamed.png");
+	error=lodepng_decode32_file(&Image,&width,&height,"f.png");
 	if(error){
 		printf("Error opening a file %d :%s",error,lodepng_error_text(error));
 	}

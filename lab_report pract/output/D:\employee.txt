@@ -1,0 +1,12 @@
+Employee 1954959464
+,i+1Name: Samyog 
+Age: 19 
+Salary: 0 
+Employee 1954959464
+,i+1Name: sam 
+Age: 21 
+Salary: 10200 
+Employee 1954959464
+,i+1Name: yog 
+Age: 23 
+Salary: 10000 
