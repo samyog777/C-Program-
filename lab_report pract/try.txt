@@ -4,9 +4,29 @@ Salary: 10000
 
 Name: sus
 Age: 20
-Salary: 9000
+Salary: 8000
 
 Name: sne
-Age: 20
-Salary: 8000
+Age: 342
+Salary: 9000
+
+Name: rfbv
+Age: 42
+Salary: 32
+
+Name: ravb
+Age: 53
+Salary: 543
+
+Name: WOW
+Age: 2
+Salary: 2100
+
+Name: Lovely
+Age: 12
+Salary: 23000
+
+Name: Almost
+Age: 34
+Salary: 8900
 

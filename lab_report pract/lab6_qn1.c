@@ -28,12 +28,11 @@ int main() {
     }
 
     for (int i=0;i<3;i++) {
-        fprintf(file,"Name: %s\n",s[i].name);
-        fprintf(file,"Age: %d\n",s[i].age);
-        fprintf(file,"Salary: %d\n",s[i].salary);
-        fprintf(file,"\n"); 
+        fprintf(file,"Name: %s",s[i].name);
+        fprintf(file,"Age: %d",s[i].age);
+        fprintf(file,"Salary: %d",s[i].salary);
     }
-    
+
     fclose(file);
     return 0;
 }
