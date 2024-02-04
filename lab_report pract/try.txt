@@ -30,3 +30,26 @@ Name: Almost
 Age: 34
 Salary: 8900
 
+Name: Samyogg
+Age: 19
+Salary: 2000
+
+Name: sus
+Age: 20
+Salary: 10000
+
+Name: sne
+Age: 19
+Salary: 19000
+
+Name: samm
+Age: 19
+Salary: 100000
+
+Name: sus
+Age: 20
+Salary: 10000
+
+Name: samm
+Age: 200
+Salary: 10000
