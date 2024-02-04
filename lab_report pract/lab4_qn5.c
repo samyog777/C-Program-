@@ -5,9 +5,9 @@ int main() {
     int size;
     printf("Enter the size of array: ");
     scanf("%d",&size);
-    int *arr1 = (int *)malloc(sizeof(int));
-    int *arr2 = (int *)malloc(sizeof(int));
-    int *sumArr = (int *)malloc(sizeof(int));
+    int *arr1 = (int *)malloc(size *sizeof(int));
+    int *arr2 = (int *)malloc(size*sizeof(int));
+    int *sumArr = (int *)malloc(size*sizeof(int));
 
     if (arr1 == NULL || arr2 == NULL || sumArr == NULL) {
         printf("Some error occor while allocating memory: ");

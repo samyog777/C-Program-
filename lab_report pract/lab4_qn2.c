@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int SearchElem(int *arr,int size,int target) {
+int SearchElem(int *ptr,int size,int target) {
     for (int i=0;i<size;i++) {
-        if (*(arr+i)==target) {
+        if (*(ptr+i)==target) {
             return 0;
         }
     }

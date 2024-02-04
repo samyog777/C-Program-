@@ -4,7 +4,7 @@ int main() {
     char ch;
     printf("Enter a character: ");
     scanf ("%c",&ch);
-    while (ch = getchar() != "\n") {
+    while ((ch = getchar()) != '\n') {
         if (ch >= 'A' && ch <= 'Z') {
             ch += 32;
         }
