@@ -30,7 +30,7 @@ int main(){
 	}
 	unsigned char *png;
 	size_t pngsize;
-	error=lodepng_encode32(&png,&pngsize,Image,width,height);
+	error=lodepng_encode32_file(&png,&pngsize,Image,width,height);
 	if(!error){
 		lodepng_save_file(png,pngsize,"Cr7_grey.png");
 	}

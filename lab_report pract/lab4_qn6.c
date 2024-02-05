@@ -18,19 +18,21 @@ int main() {
         printf("%d ",arr[i]);
     }
 
-    arr = (int *)realloc(arr,size*(sizeof(int)));
+    int new_size;
     printf("\nEnter the size of array: ");
-    scanf("%d",&size);
+    scanf("%d",&new_size);
+
+    arr = (int *)realloc(arr,(size+new_size)*sizeof(int));
 
     printf("Enter the value to array: ");
-    for (int i=0;i<size;i++) {
+    for (int i=size;i<(size+new_size);i++) {
         scanf("%d",&arr[i]);
     }
 
     printf("The final value of array is: ");
-    for (int i=0;i<size;i++) {
+    for (int i=0;i<(size+new_size);i++) {
         printf("%d ",arr[i]);
     }
     free(arr);
     return 0;
-}
+}   

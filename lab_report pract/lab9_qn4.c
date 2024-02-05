@@ -1,14 +1,13 @@
 #include <stdio.h>
-#include <unistd.h>
 #include <pthread.h>
+#include <unistd.h>
 
 void *first(void *p) {
     int *range = (int *)p;
     int start = range[0];
     int finish = range[1];
 
-    int i;
-    for (i=start;i<=finish;i++) {
+    for (int i=start;i<finish;i++) {
         printf("%d\n",i);
     }
     return NULL;
@@ -21,7 +20,7 @@ int main() {
 
     pthread_t threads[num_threads];
 
-    for(int i=0;i<num_threads;i++) {
+    for (int i=0;i<num_threads;i++) {
         int range[2] = {i*(1000/num_threads)+1,(i+1)*(1000/num_threads)};
         pthread_create(&threads[i],NULL,first,(void *)range);
     }
