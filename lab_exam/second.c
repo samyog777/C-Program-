@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int arr[] = {1,2,3,4,5,0,6,7,8,9};
 int target;
 int size = sizeof(arr)/sizeof(arr[0]);
